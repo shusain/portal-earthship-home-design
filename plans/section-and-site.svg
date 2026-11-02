@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="950" viewBox="0 0 1500 950">
+<rect width="1500" height="950" fill="#faf7ef"/><g font-family="Arial" fill="#243a35">
+<text x="70" y="65" font-size="34" font-weight="bold">EARTH GROUNDSHIP / A — sectional design intent</text>
+<text x="70" y="102" font-size="18">Portal, Arizona · single story · schematic section, not a structural or grading detail</text>
+<text x="110" y="185" font-size="22">SOUTH / OPEN YARD</text><text x="1000" y="185" font-size="22">NORTH / UPHILL</text>
+<path d="M80 635 L945 635 L945 430 L1080 430 L1350 635 L1420 635 L1420 730 L80 730Z" fill="#c0aa83"/>
+<path d="M300 620 L300 300 L330 300 L330 620 M925 620 L925 285 L955 285 L955 620 M300 620 L955 620 L955 640 L300 640" fill="#69716a"/>
+<path d="M240 275 L985 255 L985 292 L240 312Z" fill="#7c958b"/>
+<path d="M330 332 L925 332" fill="none" stroke="#c8beaa" stroke-width="4"/>
+<path d="M320 640 L935 640 L935 675 L320 675Z" fill="#bdc9c4"/>
+<path d="M290 675 L340 675 L340 700 L290 700Z M910 675 L960 675 L960 700 L910 700Z" fill="#69716a"/>
+<path d="M955 620 L955 285" stroke="#273d39" stroke-width="5"/>
+<path d="M965 630 L965 325" stroke="#81aaa2" stroke-width="10"/>
+<circle cx="985" cy="675" r="9" fill="#294f55"/><path d="M985 675 L1300 675" stroke="#294f55" stroke-width="4" stroke-dasharray="10 7"/>
+<path d="M1170 420 L1230 440 L1290 420" fill="none" stroke="#294f55" stroke-width="4"/>
+<path d="M1185 417 L1250 417" stroke="#294f55" stroke-width="4"/>
+<path d="M300 450 L330 450 L330 555 L300 555Z" fill="#69a3b0"/>
+<text x="430" y="465" font-size="26">BEDROOM / LIVING</text><text x="450" y="500" font-size="20">9′ nominal ceiling</text>
+<text x="450" y="530" font-size="16">Local transfer/header drop ≈ 7′10″</text>
+<path d="M350 750 L920 750" stroke="#243a35" stroke-width="2"/>
+<text x="565" y="778" font-size="20">34′ overall depth</text>
+<text x="1020" y="330" font-size="18">Protected waterproofing</text><path d="M1015 337 L960 360" stroke="#243a35"/>
+<text x="1030" y="520" font-size="18">≈ 6′ rear burial assumed</text>
+<text x="1030" y="550" font-size="16">Berm slope / soil stability TBD</text>
+<text x="1030" y="585" font-size="16">Interceptor drain above house</text>
+<text x="1010" y="720" font-size="16">Footing drain to verified gravity outlet</text>
+<text x="350" y="230" font-size="18">Lightweight roof · ¼″ per foot fall south · 3′ south overhang</text>
+<text x="70" y="835" font-size="18">Separate roof runoff, upslope interception and footing drainage. No soil-covered roof in baseline.</text>
+<text x="70" y="865" font-size="18">Floor datum, groundwater, flood/erosion clearance, slopes, foundations and reinforcement require site engineering.</text>
+<text x="70" y="905" font-size="18" fill="#944e30">NOT FOR CONSTRUCTION · Survey and structural / geotechnical / envelope design required.</text>
+</g></svg>

@@ -1,0 +1,346 @@
+{
+  "source_sha256": "0e506b291e6997b769b94032ec62cbf2da2c157058fb96a4c85d73baf64fac22",
+  "native_sha256": "8c57d361a05b464b542b920c7f67458c53ab41a9e0f48fa0be4e5dbb3e36fd7f",
+  "items": [
+    {
+      "item": "Ceiling gypsum",
+      "net_quantity": 1983.81,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2182.2,
+      "component_count": 1,
+      "basis": "Source surface area recorded on native object"
+    },
+    {
+      "item": "Concrete footings",
+      "net_quantity": 18.74,
+      "unit": "cy",
+      "status": "measured",
+      "allowance_percent": 5,
+      "planning_quantity": 19.68,
+      "component_count": 7,
+      "basis": "Measured native mesh volume"
+    },
+    {
+      "item": "Concrete slab",
+      "net_quantity": 24.59,
+      "unit": "cy",
+      "status": "measured",
+      "allowance_percent": 5,
+      "planning_quantity": 25.82,
+      "component_count": 1,
+      "basis": "Measured native mesh volume"
+    },
+    {
+      "item": "Door reservation",
+      "net_quantity": 10,
+      "unit": "each",
+      "status": "reservation",
+      "allowance_percent": 0,
+      "planning_quantity": 10.0,
+      "component_count": 10,
+      "basis": "Schematic reservation / context; not a measured purchasing quantity"
+    },
+    {
+      "item": "Engineered roof member reservation",
+      "net_quantity": 992.15,
+      "unit": "lf",
+      "status": "reservation",
+      "allowance_percent": 0,
+      "planning_quantity": 992.15,
+      "component_count": 62,
+      "basis": "Schematic reservation / context; not a measured purchasing quantity"
+    },
+    {
+      "item": "Exterior wall inside finish",
+      "net_quantity": 1873.12,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2060.43,
+      "component_count": 44,
+      "basis": "Native mesh volume / 0.62992 in declared layer thickness"
+    },
+    {
+      "item": "Footing drain reservation",
+      "net_quantity": 199.99,
+      "unit": "lf",
+      "status": "reservation",
+      "allowance_percent": 10,
+      "planning_quantity": 219.99,
+      "component_count": 4,
+      "basis": "Schematic reservation / context; not a measured purchasing quantity"
+    },
+    {
+      "item": "Header plywood spacer",
+      "net_quantity": 11.91,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 13.1,
+      "component_count": 8,
+      "basis": "Native mesh volume / 0.5 in declared layer thickness"
+    },
+    {
+      "item": "Partition gypsum",
+      "net_quantity": 2996.62,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 3296.28,
+      "component_count": 204,
+      "basis": "Native mesh volume / 0.49409 in declared layer thickness"
+    },
+    {
+      "item": "Partition header 2x6",
+      "net_quantity": 51.98,
+      "unit": "lf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 57.18,
+      "component_count": 16,
+      "basis": "Net modeled wood / exact 1.5 x 5.5 in dressed 2x6 section; schematic header sizing"
+    },
+    {
+      "item": "Partition timber",
+      "net_quantity": 1939.3,
+      "unit": "equivalent lf",
+      "status": "measured",
+      "allowance_percent": 15,
+      "planning_quantity": 2230.19,
+      "component_count": 562,
+      "basis": "Net modeled wood / exact 1.5 x 3.5 in dressed 2x4 section; resolved junction pieces are volume equivalents, not a cut list"
+    },
+    {
+      "item": "Patio allowance",
+      "net_quantity": 679.99,
+      "unit": "sf",
+      "status": "reservation",
+      "allowance_percent": 0,
+      "planning_quantity": 679.99,
+      "component_count": 1,
+      "basis": "Schematic reservation / context; not a measured purchasing quantity"
+    },
+    {
+      "item": "Retaining concrete core",
+      "net_quantity": 46.96,
+      "unit": "cy",
+      "status": "measured",
+      "allowance_percent": 5,
+      "planning_quantity": 49.31,
+      "component_count": 44,
+      "basis": "Measured native mesh volume"
+    },
+    {
+      "item": "Roof continuous insulation",
+      "net_quantity": 2508.48,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2759.33,
+      "component_count": 1,
+      "basis": "Source surface area recorded on native object"
+    },
+    {
+      "item": "Roof deck",
+      "net_quantity": 2508.48,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2759.33,
+      "component_count": 1,
+      "basis": "Source surface area recorded on native object"
+    },
+    {
+      "item": "Roof membrane",
+      "net_quantity": 2508.48,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 15,
+      "planning_quantity": 2884.75,
+      "component_count": 1,
+      "basis": "Source surface area recorded on native object"
+    },
+    {
+      "item": "Roof protective finish",
+      "net_quantity": 2508.48,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2759.33,
+      "component_count": 1,
+      "basis": "Source surface area recorded on native object"
+    },
+    {
+      "item": "Slab vapor barrier",
+      "net_quantity": 1983.81,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 15,
+      "planning_quantity": 2281.39,
+      "component_count": 1,
+      "basis": "Source surface area recorded on native object"
+    },
+    {
+      "item": "Subslab aggregate",
+      "net_quantity": 36.64,
+      "unit": "cy",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 40.3,
+      "component_count": 1,
+      "basis": "Measured native mesh volume"
+    },
+    {
+      "item": "Subslab insulation",
+      "net_quantity": 1983.81,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2182.2,
+      "component_count": 1,
+      "basis": "Source surface area recorded on native object"
+    },
+    {
+      "item": "Transfer beam reservation",
+      "net_quantity": 23.0,
+      "unit": "lf",
+      "status": "reservation",
+      "allowance_percent": 0,
+      "planning_quantity": 23.0,
+      "component_count": 1,
+      "basis": "Schematic reservation / context; not a measured purchasing quantity"
+    },
+    {
+      "item": "Transfer support reservation",
+      "net_quantity": 2,
+      "unit": "each",
+      "status": "reservation",
+      "allowance_percent": 0,
+      "planning_quantity": 2.0,
+      "component_count": 2,
+      "basis": "Schematic reservation / context; not a measured purchasing quantity"
+    },
+    {
+      "item": "Wall drainage layer",
+      "net_quantity": 1955.38,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2150.92,
+      "component_count": 44,
+      "basis": "Native mesh volume / 0.27559 in declared layer thickness"
+    },
+    {
+      "item": "Wall rigid insulation",
+      "net_quantity": 1942.9,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 10,
+      "planning_quantity": 2137.19,
+      "component_count": 44,
+      "basis": "Native mesh volume / 2.9921 in declared layer thickness"
+    },
+    {
+      "item": "Wall waterproofing",
+      "net_quantity": 1954.08,
+      "unit": "sf",
+      "status": "measured",
+      "allowance_percent": 15,
+      "planning_quantity": 2247.19,
+      "component_count": 44,
+      "basis": "Native mesh volume / 0.11811 in declared layer thickness"
+    },
+    {
+      "item": "Window reservation",
+      "net_quantity": 4,
+      "unit": "each",
+      "status": "reservation",
+      "allowance_percent": 0,
+      "planning_quantity": 4.0,
+      "component_count": 4,
+      "basis": "Schematic reservation / context; not a measured purchasing quantity"
+    },
+    {
+      "item": "Reinforcing steel",
+      "net_quantity": "",
+      "unit": "lb",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Engineer to specify bars, laps, cover, dowels and schedule"
+    },
+    {
+      "item": "Earthwork excavation and backfill",
+      "net_quantity": "",
+      "unit": "cy",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Requires surveyed ground and engineered slopes; illustrative terrain is excluded"
+    },
+    {
+      "item": "Drain stone and filter fabric",
+      "net_quantity": "",
+      "unit": "cy / sf",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Requires drain trench and soil filter design"
+    },
+    {
+      "item": "Connectors, anchors and waterproof penetrations",
+      "net_quantity": "",
+      "unit": "lot",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Requires structural and envelope details"
+    },
+    {
+      "item": "Roof bearing headers / posts / hold-downs",
+      "net_quantity": "",
+      "unit": "lot",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Reservations shown; engineering and connection schedule required"
+    },
+    {
+      "item": "HVAC, ventilation, plumbing and electrical",
+      "net_quantity": "",
+      "unit": "lot",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Service routing and equipment sizing not modeled"
+    },
+    {
+      "item": "PV / storage / cistern / septic / well",
+      "net_quantity": "",
+      "unit": "lot",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Optional/site-dependent systems not sized"
+    },
+    {
+      "item": "Floor finish and cabinets",
+      "net_quantity": "",
+      "unit": "sf / lf",
+      "status": "TBD",
+      "allowance_percent": "",
+      "planning_quantity": "",
+      "component_count": "",
+      "basis": "Furniture is context; finish and cabinetry schedule not developed"
+    }
+  ]
+}

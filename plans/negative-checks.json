@@ -1,0 +1,9 @@
+{
+  "rejected_cases": [
+    "stale-wall",
+    "unsupported-transform",
+    "unhosted-opening",
+    "fixture-wall-clash"
+  ],
+  "passed": true
+}

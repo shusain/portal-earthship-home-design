@@ -1,0 +1,35 @@
+item,net_quantity,unit,status,allowance_percent,planning_quantity,component_count,basis
+Ceiling gypsum,1983.81,sf,measured,10,2182.2,1,Source surface area recorded on native object
+Concrete footings,18.74,cy,measured,5,19.68,7,Measured native mesh volume
+Concrete slab,24.59,cy,measured,5,25.82,1,Measured native mesh volume
+Door reservation,10,each,reservation,0,10.0,10,Schematic reservation / context; not a measured purchasing quantity
+Engineered roof member reservation,992.15,lf,reservation,0,992.15,62,Schematic reservation / context; not a measured purchasing quantity
+Exterior wall inside finish,1873.12,sf,measured,10,2060.43,44,Native mesh volume / 0.62992 in declared layer thickness
+Footing drain reservation,199.99,lf,reservation,10,219.99,4,Schematic reservation / context; not a measured purchasing quantity
+Header plywood spacer,11.91,sf,measured,10,13.1,8,Native mesh volume / 0.5 in declared layer thickness
+Partition gypsum,2996.62,sf,measured,10,3296.28,204,Native mesh volume / 0.49409 in declared layer thickness
+Partition header 2x6,51.98,lf,measured,10,57.18,16,Net modeled wood / exact 1.5 x 5.5 in dressed 2x6 section; schematic header sizing
+Partition timber,1939.3,equivalent lf,measured,15,2230.19,562,"Net modeled wood / exact 1.5 x 3.5 in dressed 2x4 section; resolved junction pieces are volume equivalents, not a cut list"
+Patio allowance,679.99,sf,reservation,0,679.99,1,Schematic reservation / context; not a measured purchasing quantity
+Retaining concrete core,46.96,cy,measured,5,49.31,44,Measured native mesh volume
+Roof continuous insulation,2508.48,sf,measured,10,2759.33,1,Source surface area recorded on native object
+Roof deck,2508.48,sf,measured,10,2759.33,1,Source surface area recorded on native object
+Roof membrane,2508.48,sf,measured,15,2884.75,1,Source surface area recorded on native object
+Roof protective finish,2508.48,sf,measured,10,2759.33,1,Source surface area recorded on native object
+Slab vapor barrier,1983.81,sf,measured,15,2281.39,1,Source surface area recorded on native object
+Subslab aggregate,36.64,cy,measured,10,40.3,1,Measured native mesh volume
+Subslab insulation,1983.81,sf,measured,10,2182.2,1,Source surface area recorded on native object
+Transfer beam reservation,23.0,lf,reservation,0,23.0,1,Schematic reservation / context; not a measured purchasing quantity
+Transfer support reservation,2,each,reservation,0,2.0,2,Schematic reservation / context; not a measured purchasing quantity
+Wall drainage layer,1955.38,sf,measured,10,2150.92,44,Native mesh volume / 0.27559 in declared layer thickness
+Wall rigid insulation,1942.9,sf,measured,10,2137.19,44,Native mesh volume / 2.9921 in declared layer thickness
+Wall waterproofing,1954.08,sf,measured,15,2247.19,44,Native mesh volume / 0.11811 in declared layer thickness
+Window reservation,4,each,reservation,0,4.0,4,Schematic reservation / context; not a measured purchasing quantity
+Reinforcing steel,,lb,TBD,,,,"Engineer to specify bars, laps, cover, dowels and schedule"
+Earthwork excavation and backfill,,cy,TBD,,,,Requires surveyed ground and engineered slopes; illustrative terrain is excluded
+Drain stone and filter fabric,,cy / sf,TBD,,,,Requires drain trench and soil filter design
+"Connectors, anchors and waterproof penetrations",,lot,TBD,,,,Requires structural and envelope details
+Roof bearing headers / posts / hold-downs,,lot,TBD,,,,Reservations shown; engineering and connection schedule required
+"HVAC, ventilation, plumbing and electrical",,lot,TBD,,,,Service routing and equipment sizing not modeled
+PV / storage / cistern / septic / well,,lot,TBD,,,,Optional/site-dependent systems not sized
+Floor finish and cabinets,,sf / lf,TBD,,,,Furniture is context; finish and cabinetry schedule not developed

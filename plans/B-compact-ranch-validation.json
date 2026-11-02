@@ -1,0 +1,59 @@
+{
+  "source_sha256": "db647f8e4635889c866ae479885a661c058b3a49b9d6e2d08c3220187a8e77f9",
+  "gross_enclosed_sf": 2146.03,
+  "clear_floor_sf": 1885.41,
+  "walls_sf": 260.62,
+  "fixture_containment": "pass",
+  "room_coverage": "pass",
+  "shared_wall_ownership": "pass",
+  "door_checks": [
+    {
+      "opening": "D01",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D02",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D03",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D04",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D05",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D06",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D07",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D08",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D09",
+      "full_swing_conservative_box": "pass"
+    },
+    {
+      "opening": "D10",
+      "full_swing_conservative_box": "pass"
+    }
+  ],
+  "access_graph": "pass",
+  "private_through_routes": "none",
+  "limits": [
+    "Clear area excludes full wall bands, including door thresholds; conservative finish area.",
+    "Door swing boxes verified against room walls and fixed furniture.",
+    "Walking and both-side pads are checked in the furnished routing report separately.",
+    "No structural, thermal, drainage, daylight-performance or code approval is implied."
+  ]
+}

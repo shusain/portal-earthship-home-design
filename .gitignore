@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.blend1
+*.blend2
+review/edge-profile/
+.local/
+.env
+.env.*
+*.log

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.blend binary
+*.png binary
+*.jpg binary
+*.gif binary
+# Reviewed semantic SVG hashes are byte identities; preserve their original EOLs.
+plans/*.svg -text

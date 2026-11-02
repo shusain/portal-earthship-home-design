@@ -1,0 +1,16 @@
+{
+  "source_sha256": "0e506b291e6997b769b94032ec62cbf2da2c157058fb96a4c85d73baf64fac22",
+  "native_sha256": "8c57d361a05b464b542b920c7f67458c53ab41a9e0f48fa0be4e5dbb3e36fd7f",
+  "unique_original_components": 1131,
+  "closed_positive_volume_meshes": "pass",
+  "finite_geometry": "pass",
+  "unit_scale": "pass",
+  "all_14_reveal_stages": "pass",
+  "scene_count": 4,
+  "source_geometry_readback": "pass",
+  "limits": [
+    "No structural load/span design or comprehensive pairwise clash certification.",
+    "Layer ownership follows source union geometry; terrain/furnishings excluded from construction takeoff.",
+    "Windows/doors use reservations; certified clear opening dimensions remain unverified."
+  ]
+}

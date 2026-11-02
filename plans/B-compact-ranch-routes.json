@@ -1,0 +1,223 @@
+{
+  "source_sha256": "db647f8e4635889c866ae479885a661c058b3a49b9d6e2d08c3220187a8e77f9",
+  "walking_square_in": 30,
+  "exact_positive_edge_connectivity": "pass",
+  "door_pads": [
+    {
+      "door": "D01",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Bedroom 2",
+          "center_mm": [
+            7315,
+            4438
+          ]
+        },
+        {
+          "room": "Gallery",
+          "center_mm": [
+            7315,
+            5316
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D02",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Bedroom 3",
+          "center_mm": [
+            10973,
+            4438
+          ]
+        },
+        {
+          "room": "Gallery",
+          "center_mm": [
+            10973,
+            5316
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D03",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Primary bedroom",
+          "center_mm": [
+            15240,
+            4438
+          ]
+        },
+        {
+          "room": "Suite vestibule",
+          "center_mm": [
+            15240,
+            5316
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D04",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Gallery",
+          "center_mm": [
+            6705,
+            5810
+          ]
+        },
+        {
+          "room": "Mechanical / pantry",
+          "center_mm": [
+            6705,
+            6688
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D05",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Gallery",
+          "center_mm": [
+            9144,
+            5810
+          ]
+        },
+        {
+          "room": "Bath",
+          "center_mm": [
+            9144,
+            6688
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D06",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Gallery",
+          "center_mm": [
+            11582,
+            5810
+          ]
+        },
+        {
+          "room": "Laundry",
+          "center_mm": [
+            11582,
+            6688
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D07",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Suite vestibule",
+          "center_mm": [
+            14173,
+            5810
+          ]
+        },
+        {
+          "room": "Primary bath",
+          "center_mm": [
+            14173,
+            6688
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D08",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Suite vestibule",
+          "center_mm": [
+            16611,
+            5810
+          ]
+        },
+        {
+          "room": "Walk-in closet",
+          "center_mm": [
+            16611,
+            6688
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D09",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Living",
+          "center_mm": [
+            1524,
+            687
+          ]
+        }
+      ]
+    },
+    {
+      "door": "D10",
+      "both_interior_side_pads": "pass",
+      "pads": [
+        {
+          "room": "Gallery",
+          "center_mm": [
+            687,
+            5563
+          ]
+        }
+      ]
+    }
+  ],
+  "hall_widths": [
+    {
+      "space": "Gallery",
+      "clear_width_in": 49.53
+    },
+    {
+      "space": "Suite vestibule",
+      "clear_width_in": 49.53
+    }
+  ],
+  "bed_access": [
+    {
+      "bed": "Bedroom_2_bed",
+      "thirty_inch_access_both_sides_and_foot": "pass"
+    },
+    {
+      "bed": "Bedroom_3_bed",
+      "thirty_inch_access_both_sides_and_foot": "pass"
+    },
+    {
+      "bed": "Primary_bedroom_bed",
+      "thirty_inch_access_both_sides_and_foot": "pass"
+    }
+  ],
+  "limits": [
+    "30-inch square is a study envelope, not an accessibility or code compliance claim.",
+    "Door leaves are assumed held at 90 degrees for walking checks; full swings are independently checked against fixtures.",
+    "Exterior landings, yard-to-public-way connection and real door/frame clear dimensions need parcel and product details.",
+    "A 36-inch walking envelope cannot pass all nominal 36-inch source door reservations with finished hardware; accessible-route compliance is not asserted."
+  ]
+}

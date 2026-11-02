@@ -1,0 +1,36 @@
+{
+  "source_svg": "plans\\A-long-ranch.svg",
+  "source_sha256": "0e506b291e6997b769b94032ec62cbf2da2c157058fb96a4c85d73baf64fac22",
+  "native_file": "model\\Earth-Groundship.blend",
+  "component_count": 1131,
+  "stages": {
+    "1": "Excavation and prepared subgrade",
+    "2": "Footings",
+    "3": "Capillary break and slab",
+    "4": "Retaining shell",
+    "5": "Waterproofing and exterior insulation",
+    "6": "Drainage",
+    "7": "Interior framing",
+    "8": "Wall finishes",
+    "9": "Engineered roof reservations",
+    "10": "Roof deck and insulation",
+    "11": "Roof membrane and overhang",
+    "12": "Windows and doors",
+    "13": "Fixtures and furnishings",
+    "14": "Earth berm context"
+  },
+  "structural_status": "Schematic only; roof members, transfer system, reinforcement, bearing and footing sizing require engineering",
+  "terrain_status": "Illustrative massing, not a grading/excavation takeoff",
+  "stock_dimensions_in": {
+    "nominal_2x4_actual": [
+      1.5,
+      3.5
+    ],
+    "nominal_2x6_actual": [
+      1.5,
+      5.5
+    ],
+    "header_spacer": 0.5,
+    "stud_spacing": 16
+  }
+}
