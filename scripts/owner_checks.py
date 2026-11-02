@@ -32,6 +32,7 @@ def main():
             if u.scheme or u.netloc or not u.path:continue
             target=(path.parent/unquote(u.path)).resolve();assert target.is_relative_to(ROOT) and target.is_file(),(path,link);urls.add(str(target.relative_to(ROOT)))
     rejects=[]
+    (ROOT/'.local').mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(dir=ROOT/'.local') as td:
         for case in ['stale-wall','unsupported-transform','roof-split-change']:
             root=E.parse(plan).getroot()
