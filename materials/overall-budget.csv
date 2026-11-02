@@ -1,12 +1,4 @@
 ﻿item,low_usd,high_usd,basis
-House and patio materials,143778.7,246773.93,All material rows above; no labor
-"House construction labor, concrete forming/placement, MEP installation, rentals and pumping",105000,185000,Authored combined labor/equipment allowance; excludes site earthworks and separately listed utilities. No supplier or contractor quote.
-"Surveyed site excavation, berm/backfill and grading labor/equipment",20000,55000,Authored installed sitework allowance; excludes drain materials already included. Unknown rock/groundwater may exceed range.
-Septic system installed,12000,25000,Authored allowance pending soils/permit design; not a quoted system
-Water source / well or service connection installed,10000,35000,"Authored allowance; no well depth, yield or service location known"
-Electric utility extension / connection,5000,25000,"Authored allowance, utility quote required; off-grid PV/storage excluded"
-Material freight and remote delivery reserve,11502.3,29612.87,Authored 8%-12% material-cost reserve; includes ready-mix transport; long-haul concrete feasibility remains open
-Sales/use-tax reserve,11502.3,24677.39,"Authored 8%-10% reserve on material subtotal, NOT a verified tax rate or tax determination"
-General contractor overhead / profit reserve,47817.49,93909.63,"Authored 15% of preceding construction subtotal; remove/rework for owner-builder procurement, without assuming labor is free"
-"Design, geotechnical, survey and permit fees",18000,35000,Authored professional/permit allowance; refine possible overlap in survey/site quote
-Concept design / scope contingency,76920.16,150994.76,"20% of all preceding rows, including OH/profit and fees; not a guarantee of maximum cost"
+House construction materials,141058.7,241333.93,"House envelope, structure, interior finishes, house services/equipment; optional patio excluded"
+"Hired trade labor, including immediate excavation/backfill labor",125500,336900,Sum of phase person-hours x authored billable rate per worker; no second crew-size multiplier
+"Construction machinery, concrete forms/pump and lifting equipment",12000,27000,Equipment/formwork package only; operator and installation labor are in phase rows

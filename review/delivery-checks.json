@@ -1,6 +1,8 @@
 {
-  "local_links_checked": 48,
+  "local_links_checked": 56,
   "budget_arithmetic": "pass",
+  "construction_scope": "pass",
+  "labor_hours_rates_and_dependencies": "pass",
   "stock_dimensions": "pass",
   "US_purchasing_units": "pass",
   "source_native_cost_provenance": "pass",

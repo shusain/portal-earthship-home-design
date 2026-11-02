@@ -1,0 +1,7 @@
+﻿item,low_usd,high_usd,basis
+Land purchase and existing off-grid generation/storage,0,0,"Already acquired per user. No PV, battery, generator or utility-extension purchase allowance."
+Material freight / remote delivery planning reserve,11284.7,28960.07,8%-12% authored reserve; additional to direct construction; replace with actual delivery/ready-mix haul quote
+Sales/use tax planning reserve,11284.7,24133.39,"8%-10% authored reserve, not a verified tax rate; additional to direct construction"
+"Design, geotechnical, survey and permits",18000,35000,Professional/permit scope outside construction labor/material headline; quote separately
+"Optional patio materials, approximately 680 sf",2720,5440,Outside enclosed house; patio labor/machine costs are not included in phase schedule
+Optional construction contingency,27855.87,121046.79,"10%-20% cash-planning reserve only, not a charge or actual material/labor quantity"

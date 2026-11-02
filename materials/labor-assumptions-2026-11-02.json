@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-02",
+  "basis": "Authored productivity and billable trade-rate scenarios; not contractor quotes or BLS productivity data",
+  "paid_hours_per_worker_week": 40,
+  "schedule_buffer_weeks": [2,4],
+  "owner_team_hours_per_week": 40,
+  "owner_effort_multiplier": 1.35,
+  "gc_coordination_fee_percent": [10,15],
+  "rate_context": [
+    {"trade":"Arizona carpenters", "annual_median_usd":58580,"year":2025,"url":"https://www.onetonline.org/link/localwages/47-2031.00?st=AZ"},
+    {"trade":"Arizona construction laborers", "annual_median_usd":46590,"year":2025,"url":"https://www.onetonline.org/link/localwages/47-2061.00?st=AZ"},
+    {"trade":"Arizona electricians", "annual_median_usd":61060,"year":2025,"url":"https://www.onetonline.org/link/localwages/47-2111.00?st=AZ"}
+  ],
+  "phases": [
+    {"id":"excavate","phase":"Layout, excavation and subgrade","person_hours":[80,160],"crew":2,"billable_hour_usd":[65,95],"after":[],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Operator and ground worker labor; machine hire/fuel/transport priced separately. Assumes no blasting/dewatering."},
+    {"id":"footings","phase":"Footing forms, reinforcement and placement","person_hours":[160,280],"crew":4,"billable_hour_usd":[45,70],"after":["excavate"],"wait_weeks":[0.5,1],"owner_eligible":false,"notes":"Concrete material in purchasing table; pump/forms hire separate. Inspection and release allowance included in waiting time."},
+    {"id":"walls","phase":"Retaining-wall forms, steel, pour and strip","person_hours":[320,560],"crew":4,"billable_hour_usd":[50,80],"after":["footings"],"wait_weeks":[1,2],"owner_eligible":false,"notes":"Site-engineered retaining shell. Waiting is a schedule allowance, not approval to strip/load/backfill at a particular concrete age; engineer sets release."},
+    {"id":"slab","phase":"Underslab prep, service coordination and slab","person_hours":[160,240],"crew":3,"billable_hour_usd":[50,80],"after":["walls"],"wait_weeks":[0.5,1],"owner_eligible":false,"notes":"Includes underfloor pipe/sleeve installation labor; plumbing/electrical rough rows exclude this work. Cure/inspection waiting allowance."},
+    {"id":"waterproof","phase":"Wall waterproofing and footing drainage","person_hours":[160,280],"crew":3,"billable_hour_usd":[45,75],"after":["walls"],"wait_weeks":[0.25,0.5],"owner_eligible":false,"notes":"Membrane, protection, drain and outlet work; material package counted separately. Inspection before concealment."},
+    {"id":"roof_structure","phase":"Roof framing, transfer supports and deck","person_hours":[240,400],"crew":4,"billable_hour_usd":[50,80],"after":["slab"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Engineered joist/transfer design required. Lift/crane hire separate; trade labor included here."},
+    {"id":"roof_weather","phase":"Roof insulation, membrane, flashing and gutters","person_hours":[120,220],"crew":3,"billable_hour_usd":[55,85],"after":["roof_structure"],"wait_weeks":[0.25,0.5],"owner_eligible":false,"notes":"Dry-in and envelope inspection allowance; materials priced once in purchasing table."},
+    {"id":"partitions","phase":"Interior partition framing and door blocking","person_hours":[120,220],"crew":3,"billable_hour_usd":[45,75],"after":["roof_weather"],"wait_weeks":[0,0],"owner_eligible":true,"notes":"Owner-assisted option substitutes owner effort only here and in finish phases; structural roof/retaining work remains hired."},
+    {"id":"openings","phase":"Exterior windows and entry doors","person_hours":[40,60],"crew":2,"billable_hour_usd":[55,85],"after":["roof_weather"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Weather flashing and escape-opening verification; no window material double count."},
+    {"id":"plumbing_rough","phase":"Above-slab plumbing rough-in","person_hours":[80,140],"crew":2,"billable_hour_usd":[75,110],"after":["partitions","openings"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"House supply/waste lines and tests only; excludes septic/well. Underslab labor is in slab phase."},
+    {"id":"electrical_rough","phase":"House electrical rough-in","person_hours":[80,140],"crew":2,"billable_hour_usd":[75,110],"after":["partitions","openings"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"House panel, branch circuits and existing-power interface checks. No PV/battery/generator purchase or utility extension."},
+    {"id":"hvac_rough","phase":"Heat pump and ventilation rough-in","person_hours":[70,120],"crew":2,"billable_hour_usd":[75,110],"after":["partitions","openings"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Ducts, equipment installation and rough connections; equipment supply counted in materials."},
+    {"id":"rough_inspection","phase":"Rough trade inspection / correction window","person_hours":[0,0],"crew":0,"billable_hour_usd":[0,0],"after":["plumbing_rough","electrical_rough","hvac_rough"],"wait_weeks":[0.5,1],"owner_eligible":false,"notes":"Waiting window only, not a fee or another bill for trade hours; normal corrections covered in phase ranges."},
+    {"id":"linings","phase":"Drywall, plaster and painting","person_hours":[300,500],"crew":3,"billable_hour_usd":[40,65],"after":["rough_inspection"],"wait_weeks":[0.5,1],"owner_eligible":true,"notes":"Interior finish labor only. Drying time is separate from person-hours."},
+    {"id":"finishes","phase":"Cabinets, counters, flooring and interior doors","person_hours":[200,320],"crew":3,"billable_hour_usd":[45,75],"after":["linings"],"wait_weeks":[0,0],"owner_eligible":true,"notes":"Fit-out labor; cabinetry, flooring and door materials already priced. Specialized countertop fabrication may remain subcontracted in owner option."},
+    {"id":"plumbing_trim","phase":"Plumbing trim and fixtures","person_hours":[40,60],"crew":2,"billable_hour_usd":[75,110],"after":["finishes"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Fixtures/trim labor, separate from rough-in hours; supply in materials."},
+    {"id":"electrical_trim","phase":"Electrical trim, alarms and lighting","person_hours":[40,60],"crew":2,"billable_hour_usd":[75,110],"after":["finishes"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Trim and testing; no new off-grid generation/storage equipment."},
+    {"id":"hvac_trim","phase":"HVAC final connections and balancing","person_hours":[30,60],"crew":2,"billable_hour_usd":[75,110],"after":["linings"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Mechanical commissioning labor; equipment cost remains in materials."},
+    {"id":"backfill","phase":"Engineered backfill and immediate final grading","person_hours":[80,140],"crew":2,"billable_hour_usd":[60,90],"after":["waterproof","roof_structure"],"wait_weeks":[0.25,0.5],"owner_eligible":false,"notes":"Roof diaphragm/retaining system and waterproofing must be released before backfill. Engineer's sequence governs; machines priced separately."},
+    {"id":"completion","phase":"Punch list, cleanup and final inspections","person_hours":[80,140],"crew":2,"billable_hour_usd":[55,85],"after":["plumbing_trim","electrical_trim","hvac_trim","backfill"],"wait_weeks":[0,0],"owner_eligible":false,"notes":"Multitrade closeout and cleanup, excluding duplicate HVAC balancing/trim labor. Inspection scheduling risk is also in overall buffer."}
+  ],
+  "equipment": [
+    {"item":"Excavator/skid-steer/compactor hire, fuel and mobilization","low_usd":6000,"high_usd":14000,"basis":"Machine costs only; operator/ground labor is in excavation and backfill phases. Import/export trucking beyond ordinary immediate works requires a quote."},
+    {"item":"Concrete forms hire/consumables, pump and roof lift/crane hire","low_usd":6000,"high_usd":13000,"basis":"Equipment/formwork package only; placement, rigging and carpentry labor are in corresponding phases. Not a supplier quote."}
+  ]
+}
