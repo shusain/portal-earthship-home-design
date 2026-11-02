@@ -1,0 +1,11 @@
+﻿phase,description,project_weeks,release,budget_from_awarded_bids_usd,committed_usd,paid_usd,forecast_usd,evidence,status
+0,Confirm and assemble,1-4,"HP1 and HP3; APN, approvals, insurer and team",,,,,,NOT AUTHORIZED / budget to be built from bids
+1,Design and private engineering,3-14,No paid design beyond initial study without HP1; complete HP2 before contractor hiring,,,,,,NOT AUTHORIZED / budget to be built from bids
+2,Competitive procurement and cash plan,10-24,RFQs may be prepared; no orders before stamped design and owner payment approval,,,,,,NOT AUTHORIZED / budget to be built from bids
+3,Site preparation and excavation,22-28,"HP1, HP2, HP3; permit posted, disclosure recorded, authorization to excavate on file",,,,,,NOT AUTHORIZED / budget to be built from bids
+4,Foundation and retaining walls,28-38,HP4 and HP5 before respective pours; verify exposed soil against report,,,,,,NOT AUTHORIZED / budget to be built from bids
+5,"Waterproofing, drainage and controlled backfill release",38-42,HP6; full backfill also needs engineered temporary restraint OR completed permanent restraint,,,,,,NOT AUTHORIZED / budget to be built from bids
+6,Glulam and hybrid roof,42-52,HP7 before roof installation; HP8 joint inspection and water test before interior work,,,,,,NOT AUTHORIZED / budget to be built from bids
+7,"Water/septic connections, electrical and humidity ventilation",52-60,Approved utility records; HP9 before concealing services/interior finishes,,,,,,NOT AUTHORIZED / budget to be built from bids
+8,Interior fit-out and garden,60-72,HP8 and HP9; waterproofed planters with independent drainage,,,,,,NOT AUTHORIZED / budget to be built from bids
+9,Close-out and permanent record,after 72,"After week 72; duration TBD. Punch list, warranties, record drawings, all inspections and recorded disclosure",,,,,,NOT AUTHORIZED / budget to be built from bids

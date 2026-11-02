@@ -1,0 +1,10 @@
+﻿id,hold_point,when,responsible,evidence_needed,status,evidence_file,released_by,release_date
+HP1,"Written opt-out, water and septic approvals",Before design payment beyond initial architectural study,PM / owner,"County eligibility/option confirmation, issued permit or permit path, water/well-agreement and septic approvals",UNVERIFIED - NOT CLEARED,,,
+HP2,Completed stamped drawings,Before any contractor hiring or long-lead order,Structural engineer / architect / owner,Stamped coordinated structural/envelope/roof/egress package and owner acceptance,UNVERIFIED - NOT CLEARED,,,
+HP3,Insurance confirmation,Before excavation,Insurance agent / PM,Written quote or coverage confirmation for the actual opt-out/underground/hybrid-roof scope,UNVERIFIED - NOT CLEARED,,,
+HP4,Footing excavation and reinforcement acceptance,Before footing pour,Independent inspector / structural engineer,"Report accepting soil, excavation, rebar, cover and dowels against stamped details",UNVERIFIED - NOT CLEARED,,,
+HP5,Wall reinforcement acceptance,Before wall pour,Independent inspector / structural engineer,"Rebar, embeds, waterproofing joints and penetration acceptance report",UNVERIFIED - NOT CLEARED,,,
+HP6,Waterproofing and drainage acceptance,Before any backfill,Independent inspector / envelope and structural engineer,Membrane/protection/drain reports and photos; separate structural bracing/backfill-lift release,UNVERIFIED - NOT CLEARED,,,
+HP7,Glulam bearings and connections acceptance,Before roof installation,Independent inspector / structural engineer,"Bearing, connectors, treatment/finish and temporary-stability acceptance",UNVERIFIED - NOT CLEARED,,,
+HP8,Hybrid roof joint and water test acceptance,Before interior work,Independent inspector / roof designer,"Flashing/gaskets/thermal movement/shading/vents acceptance, documented leak test and corrective retest if needed",UNVERIFIED - NOT CLEARED,,,
+HP9,House systems acceptance,Before interior finishes,Independent inspector / qualified trades,"Plumbing, electrical and ventilation test reports, garden humidity design and installed-system checks",UNVERIFIED - NOT CLEARED,,,

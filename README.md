@@ -1,60 +1,66 @@
-# Earth Groundship — Portal, Arizona
+# Portal Earthship — owner brief V2
 
-**Selected layout A: 64′ × 34′, single-story, three bedrooms and two bathrooms.**
+[Live design overview](https://shusain.github.io/portal-earthship-home-design/) · [Project controls](revisions/owner-brief-v2/project/index.html) · [Construction and program costs](revisions/owner-brief-v2/materials/costs.html)
 
-Start with [the GitHub Pages design overview](https://shusain.github.io/portal-earthship-home-design/), [the local overview](index.html), [the selected plan](plans/A-long-ranch.svg), or [the four-view overview](review/overview.jpg).
+The land owner's nine-page project plan supersedes the prior ranch study. The user confirmed **2,500 sf gross enclosed including garden/walls**, **three zones in a line**, and **50% translucent roof extending over part of the middle zone**. The raw PDF remains local; public artifacts use an anonymous requirements digest and record its SHA256. No source personal identity, deed/APN, call script or private approval documents are published.
 
-**Construction materials, labor and time:** [supplier-linked report](materials/costs.html), [Markdown document](materials/cost-breakdown.md), [house purchasing CSV](materials/us-purchasing-and-costs.csv), [labor / schedule CSV](materials/labor-and-schedule.csv), [labor options](materials/labor-options.csv), and [direct construction summary](materials/overall-budget.csv). Land and off-grid generation/storage are already acquired. House wiring/panel/protection remains included; no new power system or utility extension is budgeted. Supplier price benchmarks were researched November 2, 2026. Labor hours, billable rates and schedule assumptions are authored estimates, not local bids. Current totals are in [estimate.json](materials/estimate.json).
+## Current concept
 
-The main cost view now covers **house construction materials + trade labor + machinery/forms/pump/lift**. It compares owner-managed hired trades, owner-assisted partitions/interior finishes, and GC-coordinated hired trades. Professional fees, tax, freight and contingency are [separate planning items](materials/separate-budget-items.csv). The patio is optional; off-house water/septic systems are excluded and their existing status is unconfirmed. The dependency schedule starts after permit/procurement readiness and distinguishes person-hours, crew size, active work and waiting time.
+- C1: provisional **100 ft x 25 ft**, 2,500 sf gross / approximately **2,102.79 sf clear**. Engineer to optimize dimensions against glulam, panel, retaining and site costs. No optimum or parcel fit is claimed.
+- Gross zones: living/sleeping 1,000 sf; kitchen/bath/service 700 sf; garden 800 sf. The prior three-bedroom requirement is superseded. Bath is enclosed beneath opaque roof; a glazed garden humidity screen is a coordination proposal.
+- One short-direction glulam span, no interior roof bearing line. Fourteen 5-1/8 x 18 in modeled beam reservations, 28 ft buying-length reservation; **no section, grade, span or connection approval**.
+- Split roof: half opaque, half polycarbonate, before frame/shade deductions. Garden plus 450 sf of middle zone under PC before overhangs. Approximate 16 mm (5/8 in) panel thickness; actual panel lengths, support grid, joints and thermal system need manufacturer/engineer design.
+- Roof slope provisionally 10% (1.2 in/ft), replacing old 1/4 in/ft. Glulam and secondary framing are inspectable; roof frame, flashing, gaskets, vents and exterior shading remain unengineered reservations.
+- Retained walls and exposed roof with south daylight/escape court. Approximately 8 ft rear burial is illustrative only. Floor datum, stable slopes, court-to-grade escape route and gravity drain outlet need actual parcel/topographic/soil data.
+- US framing profile: nominal 2x4 actual 1.5 x 3.5 in, nominal 2x6 actual 1.5 x 5.5 in, nominal 2x8 actual 1.5 x 7.25 in. Stud grid 16 in; purlin grid 24 in. Room datums are integer mm; stock/grid geometry preserves exact inch conversions. Purchasing uses US units.
 
-The gross enclosed footprint is **2,175.94 sf**, including the exterior/partition walls. Conservative clear floor area is **1,914.18 sf**, excluding wall bands and door thresholds. This is a roughly 2,000 sf study, not exactly 2,000 sf gross. Patio, berms and roof overhangs are outside the house area. If 2,000 sf is a strict maximum enclosed area, the footprint needs a further reduction. The user selected A over compact alternative B on November 2, 2026.
+## Current artifacts
 
-## Design
+Everything in [revisions/owner-brief-v2](revisions/owner-brief-v2) is this revision:
 
-The home faces south with an open walk-out yard. All three bedrooms have direct south-facing escape-window reservations. Living, kitchen and dining form an open west-side enclosure, with a continuous gallery connecting the rooms. Rear service rooms include laundry, shared bath, mechanical/pantry, primary bath and a walk-in closet. The primary bedroom, bath and closet share a suite vestibule; the vestibule currently has no privacy door to the main gallery. Mechanical equipment and food storage require separate cabinets/partitions at the detailed-design stage.
+- [C1 semantic SVG](revisions/owner-brief-v2/plans/C1-owner-linear-100x25.svg), [C2 comparison](revisions/owner-brief-v2/plans/C2-owner-linear-83x30.svg), and [room areas](revisions/owner-brief-v2/plans/C1-owner-linear-100x25-rooms.csv).
+- [Native Blender model](revisions/owner-brief-v2/model/Owner-Earthship.blend), [four-view overview](revisions/owner-brief-v2/review/overview.jpg), [stage animation](revisions/owner-brief-v2/review/construction.gif), [native readback](revisions/owner-brief-v2/model/native-readback.json).
+- [BOM](revisions/owner-brief-v2/materials/bill-of-materials.csv), [per-component quantities](revisions/owner-brief-v2/materials/components.csv), [US purchasing/costs](revisions/owner-brief-v2/materials/us-purchasing-and-costs.csv), [trade labor](revisions/owner-brief-v2/materials/trade-labor.csv), [estimate JSON](revisions/owner-brief-v2/materials/estimate.json).
+- [Owner brief reconciliation](revisions/owner-brief-v2/project/brief-reconciliation.md), [requirements matrix](revisions/owner-brief-v2/project/requirements-matrix.csv), [hold points](revisions/owner-brief-v2/project/hold-points.csv), [procurement register](revisions/owner-brief-v2/project/procurement-register.csv), [phase cash tracker](revisions/owner-brief-v2/project/phase-cash-tracker.csv), [decision register](revisions/owner-brief-v2/project/decision-register.csv), [weekly report template](revisions/owner-brief-v2/project/weekly-status-template.md).
 
-North and side walls are earth-bermed; the baseline roof is exposed, lightweight and slopes south at ¼″/ft. The section assumes approximately 6′ rear burial. This is an **earth-bermed ranch**, with earthship-inspired thermal mass and passive-solar orientation. Tire walls, greenhouse, soil-covered roof and off-grid autonomy have not been specified. The south yard must stay open for bedroom escape; a future greenhouse cannot obstruct those paths.
+Four native scenes and 14 material reveal stages use the same original construction objects; presentation views are not extra consumption. The model is not an excavation, installation or physical construction simulation. Roof vent boxes indicate reservations, not functioning cut openings; thermal/humidity/airflow capacity is uncalculated. Furniture/terrain context is excluded from takeoff; planters and engineered systems are explicitly reservations.
 
-Nominal ceiling height is 9′; finish below the ceiling substrate and the dropped public-area transfer beam reduce local clearance. The modeled beam underside is approximately **7′10″**. It is an engineering reservation, not a verified member. Exterior assembly totals approximately 12″; partitions are 4½″. Plan datums use integer millimetres for consistent topology. **Lumber is defined in exact US dressed inches:** nominal 2×4 = actual 1½″ × 3½″; nominal 2×6 = actual 1½″ × 5½″. Stud spacing is exactly 16″ on center. Two-ply 2×6 schematic headers have a ½″ plywood spacer and are separately measured. All published purchasing/takeoff volumes and quantities use US units. Integer-mm plan coordinates and Blender's internal metre coordinates are computational units, not material stock sizes.
+## Owner control requirements
 
-## Deliverables
+All **nine hold points remain unverified**. No approval, permit, insurance confirmation, stamped drawing, inspection release, bid, delivery promise, actual payment or commitment has been invented. APN/exact zoning and approval records are missing. Owner approves decisions and payments; PM/design professionals/trades execute. No DIY labor or free PM execution is assumed. No contacts, applications, orders, payments or field work have been performed.
 
-- [Selected semantic floor plan](plans/A-long-ranch.svg), [room areas](plans/A-long-ranch-rooms.csv), [alternative B](plans/B-compact-ranch.svg), [section/site intent](plans/section-and-site.svg).
-- [Native Blender file](model/Earth-Groundship.blend): construction sequence, furnished cutaway, floor plan and structural scenes. Imperial display units; geometry in metres. Timeline stages start at frames 1, 11, …, 131; complete frame 151. These are assembly visibility reveals, not a simulated construction operation.
-- [Construction animation](review/construction.gif), [exterior](review/exterior.png), [cutaway](review/cutaway.png), [structure](review/structure.png).
-- [Bill of materials CSV](materials/bill-of-materials.csv), [takeoff notes](materials/README.md), [per-component quantities](materials/components.csv), [machine-readable takeoff](materials/quantities.json).
-- [Code/site research](research/code-and-site-basis.md), [plan checks](plans/A-long-ranch-validation.json), [furnished routing checks](plans/A-long-ranch-routes.json), [native readback](model/native-readback.json).
+The PDF's phase-5 backfill-before-roof sequence needs an explicit structural release: full backfill waits for stamped temporary restraint or the completed accepted permanent restraint/diaphragm. Waterproofing inspection is not a structural bracing release.
 
-The quantity report distinguishes modeled geometry, schematic reservations and purchasing allowances. Reinforcement, structural connections, surveyed earthwork, complete building services and site systems remain unengineered. Cost allowances reserve money for those items without inventing measured quantities. Furniture placeholders do not become material consumption. The raw model takeoff retains the patio reservation, while the house purchasing/cost headline excludes it. The dated cost report separates advertised material benchmarks, authored trade person-hours/rates, machinery, optional GC fees and separately scoped planning items. It is not a bid, a local supplier quote, a guaranteed project budget or an order-ready cut list.
+Current [County owner-builder guidance](https://www.cochise.az.gov/212/Owner-Builder-Amendment) says Option 2 has no Certificate of Occupancy and retains an administrative final site visit; codes and non-building approvals still apply. Do not infer eligibility from acreage alone. Recorded disclosure, permit path, well/water/septic and insurer acceptance need actual written evidence.
 
-## Verified and unresolved
+The PDF's **weeks 1-72 overall phase envelope plus subsequent closeout** replaces the previous 21-37 week construction-only scenario. Construction phases are approximately project weeks 22-72, but stamped sequencing, approvals, quotes and written supply dates govern. No calendar start or final delivery date is known.
 
-Checks cover exact disjoint room coverage, derived wall ownership, source-SVG readback and SHA256 identity, source fixture containment, conservative complete door-swing boxes, connected 30″ square furnished routes, interior door pads, both bed sides/foot access, and approximately 49½″ clear main corridor width. The 30″ route envelope is a study input, not an accessibility standard. External door pads/landings and product-certified clear opening dimensions remain unresolved.
+## Cost scope
 
-Native-file checks reopen the saved model and verify unique original component IDs, closed positive-volume meshes, finite coordinates, unit scales, four retained review scenes and all 14 source-scene reveal stages. They do not certify structure, code compliance, daylight/ventilation performance, drainage, comprehensive clashes or construction readiness. Renders are from the native geometry.
+The current report prices the new geometry, glulam, hybrid roof, exterior shading, vents, garden humidity system and waterproof planters. Construction materials/trade labor/equipment are separate from required architect/structural/soil/private inspection/delegated PM allowances. Freight/tax and an unapproved 20% contingency example are separate. Owner brief requires a contingency proposal after bids and owner approval; no percentage is approved.
 
-Cochise County adopted 2024 residential codes effective September 1, 2026, along with 2023 NEC and retained 2012 IECC, subject to local amendments. The parcel jurisdiction, current amendments/design loads, survey, groundwater/flood constraints, retaining-wall reinforcement and roof design must be confirmed. See the linked research for primary sources and retrieval limitations. This study is **not for construction**.
+Land and off-grid generation/storage are already acquired. House electrical/interface work remains. Short approved water/septic connection reserves are provisional; new wells/septic fields or long service runs are not priced. All new engineered-system rates and labor efforts are authored planning inputs. No installed supplier/contractor quotes exist.
 
-## Reproduce locally
+## Rebuild and checks
 
-Uses Python 3.13, Pillow, and installed Blender 5.0.1. No skill-library runtime dependency or add-ons. Run from this directory in PowerShell:
+Python 3.13 + Pillow; Blender 5.0.1 background factory startup. New plan generation uses the installed `room-first-building-study` skill's `building_study.framing.profile('us')`. Set `ROOM_FIRST_SKILL` to that skill root if different from `C:/Users/shaun/.codex/skills/room-first-building-study`. The generated SVG embeds the selected profile, so model/takeoff readers consume the checked-in actual source/profile without needing to regenerate plans.
 
 ```powershell
-python scripts/design.py
-python scripts/check_routes.py
-& 'C:/Program Files/Blender Foundation/Blender 5.0/blender.exe' --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/build_model.py
-& 'C:/Program Files/Blender Foundation/Blender 5.0/blender.exe' --background --factory-startup --disable-autoexec model/Earth-Groundship.blend --python-exit-code 1 --python scripts/verify_takeoff.py
-& 'C:/Program Files/Blender Foundation/Blender 5.0/blender.exe' --background --factory-startup --disable-autoexec model/Earth-Groundship.blend --python-exit-code 1 --python scripts/render_stages.py
-python scripts/compose_review.py
-python scripts/check_source_rejection.py
-python scripts/build_costs.py
-python scripts/build_site.py
-python scripts/check_delivery.py
+python scripts/owner_plan.py
+python scripts/owner_project.py
+& 'C:/Program Files/Blender Foundation/Blender 5.0/blender.exe' --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/owner_model.py
+& 'C:/Program Files/Blender Foundation/Blender 5.0/blender.exe' --background --factory-startup --disable-autoexec revisions/owner-brief-v2/model/Owner-Earthship.blend --python-exit-code 1 --python scripts/owner_takeoff.py -- --render-stages
+python scripts/owner_costs.py
+python scripts/owner_site.py
+python scripts/owner_checks.py
 ```
 
-Reproduction refreshes the generated study outputs. Copy a revision into a new directory before changing the reviewed source. The builder consumes actual SVG rooms, boundaries, hosted openings and fixture rectangles; stale wall cells and unsupported source transforms are rejected. Quantities record both source and native-file SHA256 hashes and never resave the native model. The optional browser screenshot is only review evidence and is not a geometry source.
+Checks cover exact source coverage/readback, unsupported/stale source rejection, conservative full door swings, fixture containment, connected 30 in furnished routes/interior pads, bed access, actual saved fixture footprints, source/native/PDF hashes, four retained scenes, positive closed meshes, unit scale, glulam section metrology, 14 reveal stages, budget arithmetic and current links. A 30 in walking square is a study input, not accessibility/code approval. No structural load/span, comprehensive clash, moisture, drainage or egress certification is implied.
 
-## GitHub Pages publication
+Plan/model/takeoff/site outputs are derived and will refresh. Existing gate evidence, procurement fields, decision values and phase cash figures entered in CSV trackers are preserved by the generators. Review changes before pushing; initial-delivery checks intentionally expect the currently unverified approvals. Never place private approval documents in the public repository.
 
-Repository: <https://github.com/shusain/portal-earthship-home-design>. Public overview: <https://shusain.github.io/portal-earthship-home-design/>. Pages serves the repository root from `main`; `.nojekyll` keeps the buildless HTML/SVG/download site intact. `scripts/build_site.py` refreshes the overview from the cost estimate and native validation receipt. After changing the design, rerun the model/takeoff/review/cost/site checks before committing and pushing. Browser profiles, Blender backup files and local runtime state are ignored and are not publication artifacts.
+## History and hosting
+
+[Superseded ranch snapshot](https://github.com/shusain/portal-earthship-home-design/tree/0bfb490bcc7c7243a7f34b08109b511e1aeab222) retains the earlier 64 x 34 ft / 3-bedroom plan, model and cost history. Root `plans/`, `model/`, most root material files and the original builder scripts are historical V1 artifacts; they are not the current owner brief. Old report/review HTML bookmarks lead to the current revision. Do not run legacy `build_site.py` or `build_costs.py` as the current workflow.
+
+GitHub Pages serves repository root from main; `.nojekyll` preserves buildless assets. Images use intrinsic proportions. Native binary/SVG identities are preserved by `.gitattributes`. Browser state, local PDF runtime/rendering, Blender backups and the raw source PDF are ignored.

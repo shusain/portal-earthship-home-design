@@ -7,3 +7,5 @@ review/edge-profile/
 .env
 .env.*
 *.log
+# Owner-supplied source brief stays local; publish an anonymous requirements digest.
+/Portal Earth Ship Project Management Plan.pdf

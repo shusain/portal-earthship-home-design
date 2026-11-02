@@ -1,3 +1,5 @@
+> SUPERSEDED: this is the historical ranch estimate. [Current owner-PDF construction report](../revisions/owner-brief-v2/materials/costs.html).
+
 # House construction materials, labor and time
 
 Updated 2026-11-02 · USD · selected A, 64 ft x 34 ft · 2,175.94 sf gross / 1,914.18 sf clear

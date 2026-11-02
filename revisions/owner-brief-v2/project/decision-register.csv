@@ -1,0 +1,8 @@
+﻿id,decision,status,value
+D01,Three-zone layout replaces ranch,CONFIRMED BY USER,Three zones; no three-bedroom requirement
+D02,Roof split,CONFIRMED BY USER,50% PC including garden and part of middle zone
+D03,Area basis,CONFIRMED BY USER,"2,500 sf gross including garden/walls"
+D04,Rectangle dimensions,PROVISIONAL - engineer to optimize,C1 100 x 25 ft used for native study; C2 83 ft 4 in x 30 ft comparison
+D05,Parcel and approvals,AWAITING OWNER RECORDS,"APN, exact zoning, recorded disclosure, opt-out/permit, water/septic records and insurer confirmation missing"
+D06,Roof products and backfill restraint,ENGINEER / SUPPLIER REQUIRED,"Beam grade/section, PC thickness/length/joint system, restraint, opaque/translucent step, thermal/shading/ventilation design"
+D07,Contingency percentage,OWNER APPROVAL AFTER BIDS,No approved percentage; optional 20% example kept separate from construction subtotal

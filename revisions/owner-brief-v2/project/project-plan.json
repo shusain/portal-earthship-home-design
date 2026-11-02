@@ -1,0 +1,545 @@
+{
+  "brief_sha256": "f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e",
+  "source_pages": 9,
+  "review_status": "All nine pages extracted and rendered for review",
+  "privacy": "Raw owner PDF retained locally; public digest omits personal identity and source contact/call scripts",
+  "confirmed_decisions": [
+    "three-zone layout",
+    "50% translucent roof",
+    "2,500 sf gross including garden"
+  ],
+  "phases": [
+    {
+      "id": "0",
+      "phase": "Confirm and assemble",
+      "start_week": 1,
+      "end_week": 4,
+      "responsible": "PM / owner representative",
+      "gate": "HP1 and HP3; APN, approvals, insurer and team",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "1",
+      "phase": "Design and private engineering",
+      "start_week": 3,
+      "end_week": 14,
+      "responsible": "Architect / structural engineer / soils tester",
+      "gate": "No paid design beyond initial study without HP1; complete HP2 before contractor hiring",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "2",
+      "phase": "Competitive procurement and cash plan",
+      "start_week": 10,
+      "end_week": 24,
+      "responsible": "PM / owner / suppliers",
+      "gate": "RFQs may be prepared; no orders before stamped design and owner payment approval",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "3",
+      "phase": "Site preparation and excavation",
+      "start_week": 22,
+      "end_week": 28,
+      "responsible": "Excavation contractor / engineer / inspector",
+      "gate": "HP1, HP2, HP3; permit posted, disclosure recorded, authorization to excavate on file",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "4",
+      "phase": "Foundation and retaining walls",
+      "start_week": 28,
+      "end_week": 38,
+      "responsible": "Concrete contractor / independent inspector",
+      "gate": "HP4 and HP5 before respective pours; verify exposed soil against report",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "5",
+      "phase": "Waterproofing, drainage and controlled backfill release",
+      "start_week": 38,
+      "end_week": 42,
+      "responsible": "Envelope contractor / structural engineer / inspector",
+      "gate": "HP6; full backfill also needs engineered temporary restraint OR completed permanent restraint",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "6",
+      "phase": "Glulam and hybrid roof",
+      "start_week": 42,
+      "end_week": 52,
+      "responsible": "Framing / roofing contractors / independent inspector",
+      "gate": "HP7 before roof installation; HP8 joint inspection and water test before interior work",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "7",
+      "phase": "Water/septic connections, electrical and humidity ventilation",
+      "start_week": 52,
+      "end_week": 60,
+      "responsible": "Licensed plumbing / electrical / mechanical trades",
+      "gate": "Approved utility records; HP9 before concealing services/interior finishes",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "8",
+      "phase": "Interior fit-out and garden",
+      "start_week": 60,
+      "end_week": 72,
+      "responsible": "Finish / garden contractors / architect / PM",
+      "gate": "HP8 and HP9; waterproofed planters with independent drainage",
+      "status": "NOT STARTED / evidence pending"
+    },
+    {
+      "id": "9",
+      "phase": "Close-out and permanent record",
+      "start_week": null,
+      "end_week": null,
+      "responsible": "Contractors / PM / owner / insurer",
+      "gate": "After week 72; duration TBD. Punch list, warranties, record drawings, all inspections and recorded disclosure",
+      "status": "NOT STARTED / evidence pending"
+    }
+  ],
+  "hold_points": [
+    {
+      "id": "HP1",
+      "hold_point": "Written opt-out, water and septic approvals",
+      "when": "Before design payment beyond initial architectural study",
+      "responsible": "PM / owner",
+      "evidence_needed": "County eligibility/option confirmation, issued permit or permit path, water/well-agreement and septic approvals",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP2",
+      "hold_point": "Completed stamped drawings",
+      "when": "Before any contractor hiring or long-lead order",
+      "responsible": "Structural engineer / architect / owner",
+      "evidence_needed": "Stamped coordinated structural/envelope/roof/egress package and owner acceptance",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP3",
+      "hold_point": "Insurance confirmation",
+      "when": "Before excavation",
+      "responsible": "Insurance agent / PM",
+      "evidence_needed": "Written quote or coverage confirmation for the actual opt-out/underground/hybrid-roof scope",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP4",
+      "hold_point": "Footing excavation and reinforcement acceptance",
+      "when": "Before footing pour",
+      "responsible": "Independent inspector / structural engineer",
+      "evidence_needed": "Report accepting soil, excavation, rebar, cover and dowels against stamped details",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP5",
+      "hold_point": "Wall reinforcement acceptance",
+      "when": "Before wall pour",
+      "responsible": "Independent inspector / structural engineer",
+      "evidence_needed": "Rebar, embeds, waterproofing joints and penetration acceptance report",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP6",
+      "hold_point": "Waterproofing and drainage acceptance",
+      "when": "Before any backfill",
+      "responsible": "Independent inspector / envelope and structural engineer",
+      "evidence_needed": "Membrane/protection/drain reports and photos; separate structural bracing/backfill-lift release",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP7",
+      "hold_point": "Glulam bearings and connections acceptance",
+      "when": "Before roof installation",
+      "responsible": "Independent inspector / structural engineer",
+      "evidence_needed": "Bearing, connectors, treatment/finish and temporary-stability acceptance",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP8",
+      "hold_point": "Hybrid roof joint and water test acceptance",
+      "when": "Before interior work",
+      "responsible": "Independent inspector / roof designer",
+      "evidence_needed": "Flashing/gaskets/thermal movement/shading/vents acceptance, documented leak test and corrective retest if needed",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    },
+    {
+      "id": "HP9",
+      "hold_point": "House systems acceptance",
+      "when": "Before interior finishes",
+      "responsible": "Independent inspector / qualified trades",
+      "evidence_needed": "Plumbing, electrical and ventilation test reports, garden humidity design and installed-system checks",
+      "status": "UNVERIFIED - NOT CLEARED",
+      "evidence_file": "",
+      "released_by": "",
+      "release_date": ""
+    }
+  ],
+  "requirements": [
+    {
+      "id": "R01",
+      "requirement": "2,500 sf gross, one rectangle",
+      "PDF_pages": "1",
+      "status": "Confirmed by user",
+      "implementation": "C1 100 x 25 ft provisional; C2 83 ft 4 in x 30 ft comparison; engineer final dimensions"
+    },
+    {
+      "id": "R02",
+      "requirement": "Three zones 1,000 / 700 / 800 sf in line",
+      "PDF_pages": "1",
+      "status": "Confirmed by user",
+      "implementation": "Living/sleeping -> kitchen/bath service -> garden; clear areas below gross allocations"
+    },
+    {
+      "id": "R03",
+      "requirement": "Single roof span, glulam and wood frame",
+      "PDF_pages": "1,3",
+      "status": "Modeled reservation",
+      "implementation": "14 full transverse glulam objects; no interior transfer/bearing line. Section 5-1/8 x 18 in is NOT engineered."
+    },
+    {
+      "id": "R04",
+      "requirement": "50% polycarbonate / 50% covered roof",
+      "PDF_pages": "1",
+      "status": "Confirmed by user",
+      "implementation": "Garden plus 450 sf of middle zone under translucent half, before roof overhangs"
+    },
+    {
+      "id": "R05",
+      "requirement": "Garden under translucent roof",
+      "PDF_pages": "1",
+      "status": "Adopted interpretation",
+      "implementation": "Garden entirely beneath PC; enclosed bathroom beneath opaque half"
+    },
+    {
+      "id": "R06",
+      "requirement": "Roof joints flashing and gaskets",
+      "PDF_pages": "1,3,4",
+      "status": "Reservation / professional detail required",
+      "implementation": "Longitudinal junction shown; panel joints, seals, curb and thermal expansion need manufacturer/engineer details"
+    },
+    {
+      "id": "R07",
+      "requirement": "Exterior shading and roof vents",
+      "PDF_pages": "1,4",
+      "status": "Reservation / sizing required",
+      "implementation": "External shade and four high-level vent reservations; no thermal-performance or functional-vent-opening claim"
+    },
+    {
+      "id": "R08",
+      "requirement": "Waterproof planters and garden ventilation",
+      "PDF_pages": "5",
+      "status": "Reservation / sizing required",
+      "implementation": "Two planter reservations, ERV and dehumidification allowances; separate drains, no connection to footing drain"
+    },
+    {
+      "id": "R09",
+      "requirement": "Second exit and egress plan",
+      "PDF_pages": "3",
+      "status": "Concept reservation",
+      "implementation": "Separate service-zone entry, living exit and extra garden exit; south court/grade route needs survey and egress review"
+    },
+    {
+      "id": "R10",
+      "requirement": "Private structural engineering / inspections mandatory",
+      "PDF_pages": "1,2,5",
+      "status": "Required / not commissioned",
+      "implementation": "All nine owner hold points retained; no gate marked cleared"
+    },
+    {
+      "id": "R11",
+      "requirement": "Approvals assumed, must be proven",
+      "PDF_pages": "1,2,6-9",
+      "status": "UNVERIFIED",
+      "implementation": "No APN, permits, disclosure, water/septic documents or written authority to excavate supplied"
+    },
+    {
+      "id": "R12",
+      "requirement": "Owner approves decisions/payments only",
+      "PDF_pages": "2,5,6",
+      "status": "Adopted",
+      "implementation": "Delegated PM/trade baseline; no owner DIY labor assumed; no payments, hiring or outreach performed"
+    },
+    {
+      "id": "R13",
+      "requirement": "72-week overall phase envelope",
+      "PDF_pages": "3-5",
+      "status": "Adopted as planning baseline",
+      "implementation": "Weeks from project start, not from mobilized construction. Closeout after week 72; actual dates TBD"
+    },
+    {
+      "id": "R14",
+      "requirement": "Three bids each trade; two PC/glulam bids",
+      "PDF_pages": "3,5",
+      "status": "Tracker prepared / not requested",
+      "implementation": "Written prices, grade/product compatibility, delivery dates and warranties required"
+    },
+    {
+      "id": "R15",
+      "requirement": "Phased cash plan, actual-versus-budget and contingency",
+      "PDF_pages": "4-6",
+      "status": "Templates prepared",
+      "implementation": "No actual costs or supplier quotes invented; contingency percentage awaits bids and owner approval"
+    },
+    {
+      "id": "R16",
+      "requirement": "Weekly owner status and closeout record",
+      "PDF_pages": "5,6,9",
+      "status": "Local template prepared",
+      "implementation": "No messages sent or recurring automation created"
+    },
+    {
+      "id": "R17",
+      "requirement": "Backfill before roof in PDF sequence",
+      "PDF_pages": "4",
+      "status": "ENGINEERING CONFLICT FLAGGED",
+      "implementation": "HP6 alone does not establish wall restraint. Hold full backfill for stamped temporary bracing or permanent diaphragm release."
+    },
+    {
+      "id": "R18",
+      "requirement": "Owner-builder no-inspection option",
+      "PDF_pages": "6-9",
+      "status": "County facts checked; parcel eligibility unknown",
+      "implementation": "Current county page: Option 2 has no CO and retains an administrative final visit; non-building approvals still apply."
+    },
+    {
+      "id": "R19",
+      "requirement": "Land and off-grid power already acquired",
+      "PDF_pages": "Prior user instruction",
+      "status": "Carried forward",
+      "implementation": "No land, PV, battery or generator purchase budget. House wiring and existing-system interface remain in scope."
+    },
+    {
+      "id": "R20",
+      "requirement": "Engineer specifies finish for exposed wood",
+      "PDF_pages": "3",
+      "status": "Required specification / not selected",
+      "implementation": "Compatible glulam, glazing-frame and shade protection/coating to be specified for humid garden exposure and PC/sealant compatibility; material allowance included."
+    }
+  ],
+  "procurement": [
+    {
+      "package": "Excavation",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Concrete",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Framing",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Roofing / hybrid glazing",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Plumbing",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Electrical",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Mechanical / garden humidity",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Garden / planters",
+      "minimum_bids": 3,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Glulam supplier",
+      "minimum_bids": 2,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    },
+    {
+      "package": "Polycarbonate supplier",
+      "minimum_bids": 2,
+      "status": "NOT REQUESTED",
+      "specification_basis": "Stamped design required before award/order",
+      "supplier": "",
+      "price_usd": "",
+      "delivery_date": "",
+      "warranty": "",
+      "owner_approved": "NO"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D01",
+      "decision": "Three-zone layout replaces ranch",
+      "status": "CONFIRMED BY USER",
+      "value": "Three zones; no three-bedroom requirement"
+    },
+    {
+      "id": "D02",
+      "decision": "Roof split",
+      "status": "CONFIRMED BY USER",
+      "value": "50% PC including garden and part of middle zone"
+    },
+    {
+      "id": "D03",
+      "decision": "Area basis",
+      "status": "CONFIRMED BY USER",
+      "value": "2,500 sf gross including garden/walls"
+    },
+    {
+      "id": "D04",
+      "decision": "Rectangle dimensions",
+      "status": "PROVISIONAL - engineer to optimize",
+      "value": "C1 100 x 25 ft used for native study; C2 83 ft 4 in x 30 ft comparison"
+    },
+    {
+      "id": "D05",
+      "decision": "Parcel and approvals",
+      "status": "AWAITING OWNER RECORDS",
+      "value": "APN, exact zoning, recorded disclosure, opt-out/permit, water/septic records and insurer confirmation missing"
+    },
+    {
+      "id": "D06",
+      "decision": "Roof products and backfill restraint",
+      "status": "ENGINEER / SUPPLIER REQUIRED",
+      "value": "Beam grade/section, PC thickness/length/joint system, restraint, opaque/translucent step, thermal/shading/ventilation design"
+    },
+    {
+      "id": "D07",
+      "decision": "Contingency percentage",
+      "status": "OWNER APPROVAL AFTER BIDS",
+      "value": "No approved percentage; optional 20% example kept separate from construction subtotal"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ICC 2021 foundations chapter - backfill principle, not a current local-code citation",
+      "url": "https://codes.iccsafe.org/content/IRC2021P2/chapter-4-foundations",
+      "note": "General backfill support/bracing principle supports the engineering sequence flag. Current adopted 2024 local requirements still need the design professional."
+    },
+    {
+      "title": "Cochise County Owner Builder Amendment",
+      "url": "https://www.cochise.az.gov/212/Owner-Builder-Amendment",
+      "note": "Option 2: no building plan review/building code inspections, no Certificate of Occupancy; administrative final visit; other approvals and codes remain applicable."
+    },
+    {
+      "title": "County eligibility / septic FAQ",
+      "url": "https://www.cochise.az.gov/m/FAQ",
+      "note": "Minimum four-acre parcel and qualifying minimum-density district; RU/SM/SR subdistrict must be confirmed. Septic/well/floodplain obligations remain."
+    },
+    {
+      "title": "County Residential Projects",
+      "url": "https://cochise.az.gov/868/Residential-Projects",
+      "note": "Residential permit and owner-builder application route."
+    },
+    {
+      "title": "County Development Services directory",
+      "url": "https://cochise.az.gov/m/directory/department?did=31",
+      "note": "520-432-9300, developmentservices@cochise.az.gov. Confirm current routing through this primary office."
+    },
+    {
+      "title": "Palram SUNLITE roof guidance",
+      "url": "https://www.palram.com/product/sunlite-diy-polycarbonate-multi-wall/",
+      "note": "Manufacturer FAQ specifies 10% minimum roof slope for SUNLITE multiwall. Product selection/installation guide and load design govern; this is not approval of the study panel/spacing."
+    },
+    {
+      "title": "Greenhouse Megastore 16 mm triplewall sheets",
+      "url": "https://www.greenhousemegastore.com/products/16mm-polycarbonate-clear",
+      "note": "Product/price benchmark only. Long sloping sheet length ~27 ft for C1 including overhangs is not established stock supply; no unsupported end-lap assumed."
+    },
+    {
+      "title": "Angeles Millwork 5-1/8 x 18 in glulam",
+      "url": "https://store.angelesmillwork.com/products/glulam-beam-5-1-8--x-18--lf-7058.html",
+      "note": "Actual section family available; price/grade/length/lead time not quoted. Manufacturer/engineer must select exact product."
+    }
+  ],
+  "hold_rule": "No physical work, hiring, payment or order authorized by this concept. Each owner hold point remains unverified; release requires actual professional/owner evidence."
+}

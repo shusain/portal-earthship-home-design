@@ -1,0 +1,11 @@
+﻿id,phase,start_week,end_week,responsible,gate,status
+0,Confirm and assemble,1,4,PM / owner representative,"HP1 and HP3; APN, approvals, insurer and team",NOT STARTED / evidence pending
+1,Design and private engineering,3,14,Architect / structural engineer / soils tester,No paid design beyond initial study without HP1; complete HP2 before contractor hiring,NOT STARTED / evidence pending
+2,Competitive procurement and cash plan,10,24,PM / owner / suppliers,RFQs may be prepared; no orders before stamped design and owner payment approval,NOT STARTED / evidence pending
+3,Site preparation and excavation,22,28,Excavation contractor / engineer / inspector,"HP1, HP2, HP3; permit posted, disclosure recorded, authorization to excavate on file",NOT STARTED / evidence pending
+4,Foundation and retaining walls,28,38,Concrete contractor / independent inspector,HP4 and HP5 before respective pours; verify exposed soil against report,NOT STARTED / evidence pending
+5,"Waterproofing, drainage and controlled backfill release",38,42,Envelope contractor / structural engineer / inspector,HP6; full backfill also needs engineered temporary restraint OR completed permanent restraint,NOT STARTED / evidence pending
+6,Glulam and hybrid roof,42,52,Framing / roofing contractors / independent inspector,HP7 before roof installation; HP8 joint inspection and water test before interior work,NOT STARTED / evidence pending
+7,"Water/septic connections, electrical and humidity ventilation",52,60,Licensed plumbing / electrical / mechanical trades,Approved utility records; HP9 before concealing services/interior finishes,NOT STARTED / evidence pending
+8,Interior fit-out and garden,60,72,Finish / garden contractors / architect / PM,HP8 and HP9; waterproofed planters with independent drainage,NOT STARTED / evidence pending
+9,Close-out and permanent record,,,Contractors / PM / owner / insurer,"After week 72; duration TBD. Punch list, warranties, record drawings, all inspections and recorded disclosure",NOT STARTED / evidence pending

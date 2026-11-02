@@ -5,3 +5,4 @@
 *.gif binary
 # Reviewed semantic SVG hashes are byte identities; preserve their original EOLs.
 plans/*.svg -text whitespace=cr-at-eol
+revisions/**/plans/*.svg -text whitespace=cr-at-eol

@@ -1,0 +1,19 @@
+{
+  "source_sha256": "b5519071a7053d95db31d5f1c5cae5400aa35066c2341b3b83d1094b0488bdb1",
+  "native_sha256": "82d2c714c1c70a0563b9cee9994b6936399611812002776c340cc549a9a65d96",
+  "brief_sha256": "f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e",
+  "geometry_and_routes": "pass",
+  "room_fixture_and_door_checks": "pass",
+  "roof_halves": "50/50 pass",
+  "original_components": 822,
+  "hold_points": "9 unverified, no fabricated releases",
+  "budget_arithmetic": "pass",
+  "PDF_phase_envelope": "weeks 1-72 plus closeout",
+  "local_links_checked": 27,
+  "personal_source_identity": "omitted from public HTML",
+  "negative_source_cases": [
+    "stale-wall",
+    "unsupported-transform",
+    "roof-split-change"
+  ]
+}

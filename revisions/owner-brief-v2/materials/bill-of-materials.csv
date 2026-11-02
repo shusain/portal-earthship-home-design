@@ -1,0 +1,30 @@
+﻿item,net_quantity,unit,status,component_count
+Beam bearing/connection reservation,28,each,reservation,28
+Concrete footings,26.89,cy,measured,4
+Concrete slab,26.45,cy,measured,1
+Door unit reservation,5,each,reservation,5
+Exterior shading reservation,949.76,lf,reservation,35
+Exterior wall inside finish,2444.42,sf,measured,50
+Footing drain reservation,255.33,lf,reservation,4
+Glazed garden separation reservation,209.27,sf,reservation,8
+Glazing frame 2x6,379.9,lf,measured,14
+Glulam beam reservation,379.9,lf,reservation,14
+High-level roof vent reservation,4,each,reservation,4
+Hybrid roof joint flashing reservation,27.14,lf,reservation,1
+Opaque cover board,1383.95,sf,measured,1
+Opaque roof deck,1383.95,sf,measured,1
+Opaque roof insulation,1383.95,sf,measured,1
+Opaque roof membrane,1383.95,sf,measured,1
+Partition lining,1055.61,sf,measured,96
+Partition timber 2x4,562.44,equivalent lf,measured,106
+Polycarbonate 5/8 in nominal reservation,1337.66,sf,reservation,13
+Retaining concrete core,110.47,cy,measured,54
+Roof purlin 2x8,1470.0,lf,measured,195
+Slab vapor barrier,2134.16,sf,measured,1
+Subslab aggregate,39.42,cy,measured,1
+Subslab insulation,2134.16,sf,measured,1
+Wall drainage/protection,3072.42,sf,measured,54
+Wall rigid insulation,3051.57,sf,measured,54
+Wall waterproofing,3069.75,sf,measured,54
+Waterproofed planter reservation,168.07,sf,reservation,2
+Window / sliding unit reservation,4,each,reservation,4

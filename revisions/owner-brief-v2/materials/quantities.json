@@ -1,0 +1,210 @@
+{
+  "source_sha256": "b5519071a7053d95db31d5f1c5cae5400aa35066c2341b3b83d1094b0488bdb1",
+  "brief_sha256": "f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e",
+  "native_sha256": "82d2c714c1c70a0563b9cee9994b6936399611812002776c340cc549a9a65d96",
+  "items": [
+    {
+      "item": "Beam bearing/connection reservation",
+      "net_quantity": 28,
+      "unit": "each",
+      "status": "reservation",
+      "component_count": 28
+    },
+    {
+      "item": "Concrete footings",
+      "net_quantity": 26.89,
+      "unit": "cy",
+      "status": "measured",
+      "component_count": 4
+    },
+    {
+      "item": "Concrete slab",
+      "net_quantity": 26.45,
+      "unit": "cy",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Door unit reservation",
+      "net_quantity": 5,
+      "unit": "each",
+      "status": "reservation",
+      "component_count": 5
+    },
+    {
+      "item": "Exterior shading reservation",
+      "net_quantity": 949.76,
+      "unit": "lf",
+      "status": "reservation",
+      "component_count": 35
+    },
+    {
+      "item": "Exterior wall inside finish",
+      "net_quantity": 2444.42,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 50
+    },
+    {
+      "item": "Footing drain reservation",
+      "net_quantity": 255.33,
+      "unit": "lf",
+      "status": "reservation",
+      "component_count": 4
+    },
+    {
+      "item": "Glazed garden separation reservation",
+      "net_quantity": 209.27,
+      "unit": "sf",
+      "status": "reservation",
+      "component_count": 8
+    },
+    {
+      "item": "Glazing frame 2x6",
+      "net_quantity": 379.9,
+      "unit": "lf",
+      "status": "measured",
+      "component_count": 14
+    },
+    {
+      "item": "Glulam beam reservation",
+      "net_quantity": 379.9,
+      "unit": "lf",
+      "status": "reservation",
+      "component_count": 14
+    },
+    {
+      "item": "High-level roof vent reservation",
+      "net_quantity": 4,
+      "unit": "each",
+      "status": "reservation",
+      "component_count": 4
+    },
+    {
+      "item": "Hybrid roof joint flashing reservation",
+      "net_quantity": 27.14,
+      "unit": "lf",
+      "status": "reservation",
+      "component_count": 1
+    },
+    {
+      "item": "Opaque cover board",
+      "net_quantity": 1383.95,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Opaque roof deck",
+      "net_quantity": 1383.95,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Opaque roof insulation",
+      "net_quantity": 1383.95,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Opaque roof membrane",
+      "net_quantity": 1383.95,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Partition lining",
+      "net_quantity": 1055.61,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 96
+    },
+    {
+      "item": "Partition timber 2x4",
+      "net_quantity": 562.44,
+      "unit": "equivalent lf",
+      "status": "measured",
+      "component_count": 106
+    },
+    {
+      "item": "Polycarbonate 5/8 in nominal reservation",
+      "net_quantity": 1337.66,
+      "unit": "sf",
+      "status": "reservation",
+      "component_count": 13
+    },
+    {
+      "item": "Retaining concrete core",
+      "net_quantity": 110.47,
+      "unit": "cy",
+      "status": "measured",
+      "component_count": 54
+    },
+    {
+      "item": "Roof purlin 2x8",
+      "net_quantity": 1470.0,
+      "unit": "lf",
+      "status": "measured",
+      "component_count": 195
+    },
+    {
+      "item": "Slab vapor barrier",
+      "net_quantity": 2134.16,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Subslab aggregate",
+      "net_quantity": 39.42,
+      "unit": "cy",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Subslab insulation",
+      "net_quantity": 2134.16,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 1
+    },
+    {
+      "item": "Wall drainage/protection",
+      "net_quantity": 3072.42,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 54
+    },
+    {
+      "item": "Wall rigid insulation",
+      "net_quantity": 3051.57,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 54
+    },
+    {
+      "item": "Wall waterproofing",
+      "net_quantity": 3069.75,
+      "unit": "sf",
+      "status": "measured",
+      "component_count": 54
+    },
+    {
+      "item": "Waterproofed planter reservation",
+      "net_quantity": 168.07,
+      "unit": "sf",
+      "status": "reservation",
+      "component_count": 2
+    },
+    {
+      "item": "Window / sliding unit reservation",
+      "net_quantity": 4,
+      "unit": "each",
+      "status": "reservation",
+      "component_count": 4
+    }
+  ]
+}

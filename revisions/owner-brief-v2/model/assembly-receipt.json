@@ -1,0 +1,92 @@
+{
+  "source_svg": "revisions\\owner-brief-v2\\plans\\C1-owner-linear-100x25.svg",
+  "source_sha256": "b5519071a7053d95db31d5f1c5cae5400aa35066c2341b3b83d1094b0488bdb1",
+  "brief_sha256": "f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e",
+  "native_file": "revisions\\owner-brief-v2\\model\\Owner-Earthship.blend",
+  "framing_profile": {
+    "system": "us",
+    "stud_mm": 38.1,
+    "interior_depth_mm": 88.9,
+    "exterior_depth_mm": 139.7,
+    "stud_spacing_mm": 406.4,
+    "joist_spacing_mm": 406.4,
+    "rafter_spacing_mm": 609.6,
+    "joist_depth_mm": 241.3,
+    "flange_width_mm": 63.5,
+    "flange_thickness_mm": 38.1,
+    "web_mm": 9.525,
+    "rim_mm": 28.575,
+    "rafter_depth_mm": 234.95,
+    "tie_depth_mm": 184.15,
+    "collar_depth_mm": 139.7,
+    "header_depth_mm": 241.3,
+    "exterior_header_width_mm": 133.35,
+    "bearer_width_mm": 133.35,
+    "bearer_depth_mm": 301.625,
+    "ridge_width_mm": 133.35,
+    "ridge_depth_mm": 301.625,
+    "post_mm": 88.9,
+    "stringer_depth_mm": 285.75,
+    "batten_width_mm": 38.1,
+    "batten_depth_mm": 19.05,
+    "stock_labels": {
+      "interior": "2x4",
+      "exterior": "2x6"
+    },
+    "spacing_input_units": "inches",
+    "geometry_units": "mm",
+    "display_units": "IMPERIAL",
+    "spacing_labels": {
+      "stud": "16 in O.C.",
+      "joist": "16 in O.C.",
+      "rafter": "24 in O.C."
+    },
+    "actual_wall_stock_mm": {
+      "interior": [
+        38.1,
+        88.9
+      ],
+      "exterior": [
+        38.1,
+        139.7
+      ]
+    },
+    "actual_wall_stock_in": {
+      "interior": [
+        1.5000000000000002,
+        3.5000000000000004
+      ],
+      "exterior": [
+        1.5000000000000002,
+        5.5
+      ]
+    }
+  },
+  "original_components": 822,
+  "stages": {
+    "1": "Site / court reservations",
+    "2": "Footings",
+    "3": "Subslab and slab",
+    "4": "Retaining shell",
+    "5": "Waterproofing / insulation",
+    "6": "Drainage reservation",
+    "7": "Full-span glulam",
+    "8": "Secondary wood roof frame",
+    "9": "Opaque roof half",
+    "10": "Polycarbonate roof half / joints",
+    "11": "Exterior shading and vent reservations",
+    "12": "Partitions / humidity screen / openings",
+    "13": "Interior and garden",
+    "14": "Engineered backfill context"
+  },
+  "beam_count": 14,
+  "beam_actual_section_in": [
+    5.125,
+    18
+  ],
+  "beam_gross_span_ft": 25.0,
+  "beam_clear_span_ft": 22.001312335958005,
+  "roof_pitch": 0.1,
+  "roof_type": "50% opaque / 50% polycarbonate; no soil on roof",
+  "status": "Unengineered concept, not approved/stamped; glazing lengths and moisture/thermal details unresolved"
+}

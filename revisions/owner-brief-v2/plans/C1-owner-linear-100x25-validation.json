@@ -1,0 +1,33 @@
+{
+  "source_sha256": "b5519071a7053d95db31d5f1c5cae5400aa35066c2341b3b83d1094b0488bdb1",
+  "brief_sha256": "f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e",
+  "gross_enclosed_sf": 2500.0,
+  "clear_floor_sf": 2102.79,
+  "zone_gross_sf": [
+    1000,
+    700,
+    800
+  ],
+  "covered_roof_fraction": 0.5,
+  "polycarbonate_fraction": 0.5,
+  "partition_coverage": "pass",
+  "fixture_containment": "pass",
+  "conservative_full_swings": "pass",
+  "connected_30_in_routes_and_interior_door_pads": "pass",
+  "bed_sides_and_foot": "pass",
+  "checked_openings": [
+    "O01",
+    "O02",
+    "O03",
+    "O04",
+    "O05",
+    "O06",
+    "O07"
+  ],
+  "limits": [
+    "Concept geometry, not site survey or structural/code approval.",
+    "Gross zones include walls; clear room areas are smaller.",
+    "Daylight/thermal/glazing, private bath ventilation and garden humidity require professional sizing.",
+    "Exterior court, grade access, escape hardware and product rough openings remain reservations."
+  ]
+}
