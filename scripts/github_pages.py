@@ -9,7 +9,9 @@ def api(path='',method='GET',data=None):
     c=dict(line.split('=',1) for line in r.stdout.splitlines() if '=' in line)
     if not c.get('password'):raise RuntimeError('Existing GitHub credential not available')
     req=urllib.request.Request('https://api.github.com/repos/'+REPO+path,data=json.dumps(data).encode() if data is not None else None,method=method,headers={'Authorization':'Bearer '+c['password'],'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2026-03-10','Content-Type':'application/json','User-Agent':'portal-home-design-publisher'})
-    with urllib.request.urlopen(req,timeout=30) as f:return json.load(f)
+    with urllib.request.urlopen(req,timeout=30) as f:
+        raw=f.read()
+        return json.loads(raw) if raw else {}
 if __name__=='__main__':
     cmd=sys.argv[1] if len(sys.argv)>1 else 'status'
     if cmd=='enable':
