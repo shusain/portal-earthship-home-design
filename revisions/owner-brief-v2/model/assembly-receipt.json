@@ -62,7 +62,7 @@
       ]
     }
   },
-  "original_components": 822,
+  "original_components": 787,
   "stages": {
     "1": "Site / court reservations",
     "2": "Footings",
@@ -74,7 +74,7 @@
     "8": "Secondary wood roof frame",
     "9": "Opaque roof half",
     "10": "Polycarbonate roof half / joints",
-    "11": "Exterior shading and vent reservations",
+    "11": "Clear roof vent reservations",
     "12": "Partitions / humidity screen / openings",
     "13": "Interior and garden",
     "14": "Engineered backfill context"

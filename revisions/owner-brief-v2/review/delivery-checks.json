@@ -1,11 +1,11 @@
 {
   "source_sha256": "b5519071a7053d95db31d5f1c5cae5400aa35066c2341b3b83d1094b0488bdb1",
-  "native_sha256": "82d2c714c1c70a0563b9cee9994b6936399611812002776c340cc549a9a65d96",
+  "native_sha256": "6808f3f64ff7da22f292f1d820e758c984b032ccf1e7074da71c8b3464b4f087",
   "brief_sha256": "f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e",
   "geometry_and_routes": "pass",
   "room_fixture_and_door_checks": "pass",
   "roof_halves": "50/50 pass",
-  "original_components": 822,
+  "original_components": 787,
   "hold_points": "9 unverified, no fabricated releases",
   "budget_arithmetic": "pass",
   "PDF_phase_envelope": "weeks 1-72 plus closeout",

@@ -17,5 +17,5 @@ See [HTML report](costs.html), [purchasing CSV](us-purchasing-and-costs.csv), [l
 All construction pricing is an estimate, not a supplier quote, installed bid or actual invoice. New engineered-system rates are authored allowances. Retained supplier price references are in the repository rate scenario. Mandatory private engineering/inspections are not removed to reduce cost. Actuals/commitments are blank in the phase cash tracker.
 
 Source SHA256 `b5519071a7053d95db31d5f1c5cae5400aa35066c2341b3b83d1094b0488bdb1`
-Native SHA256 `82d2c714c1c70a0563b9cee9994b6936399611812002776c340cc549a9a65d96`
+Native SHA256 `6808f3f64ff7da22f292f1d820e758c984b032ccf1e7074da71c8b3464b4f087`
 Owner brief SHA256 `f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e`

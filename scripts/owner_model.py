@@ -10,13 +10,15 @@ from mathutils import Vector
 source=RUN/'plans/C1-owner-linear-100x25.svg';m=read_owner(source);validate(m)
 p=m['framing_profile'];IN=25.4;W,D=m['width'],m['depth'];P=m['roof_pitch'];COS=1/math.sqrt(1+P*P);SIN=P*COS;BASE=m['low_wall_height_mm'];BW=m['beam_width_in']*IN;BD=m['beam_depth_in']*IN
 bpy.ops.wm.read_factory_settings(use_empty=True);s=bpy.context.scene;s.name='01 Owner construction sequence';s.unit_settings.system='IMPERIAL';s.unit_settings.length_unit='FEET'
-STAGES={1:'Site / court reservations',2:'Footings',3:'Subslab and slab',4:'Retaining shell',5:'Waterproofing / insulation',6:'Drainage reservation',7:'Full-span glulam',8:'Secondary wood roof frame',9:'Opaque roof half',10:'Polycarbonate roof half / joints',11:'Exterior shading and vent reservations',12:'Partitions / humidity screen / openings',13:'Interior and garden',14:'Engineered backfill context'}
+STAGES={1:'Site / court reservations',2:'Footings',3:'Subslab and slab',4:'Retaining shell',5:'Waterproofing / insulation',6:'Drainage reservation',7:'Full-span glulam',8:'Secondary wood roof frame',9:'Opaque roof half',10:'Polycarbonate roof half / joints',11:'Clear roof vent reservations',12:'Partitions / humidity screen / openings',13:'Interior and garden',14:'Engineered backfill context'}
 collections={};components=[];mats={}
 def material(name,color,transmission=0):
     a=bpy.data.materials.new(name);a.diffuse_color=(*color,1);a.use_nodes=True;bs=a.node_tree.nodes.get('Principled BSDF');bs.inputs['Base Color'].default_value=(*color,1);bs.inputs['Roughness'].default_value=.4
     if transmission:bs.inputs['Transmission Weight'].default_value=transmission;bs.inputs['IOR'].default_value=1.45
     return a
-concrete=material('Concrete',(.54,.56,.52));wood=material('US timber',(.52,.32,.14));plaster=material('Mineral finish',(.85,.8,.67));foam=material('Insulation',(.58,.73,.67));membrane=material('Waterproofing',(.07,.12,.12));aggregate=material('Aggregate',(.35,.38,.35));earth=material('Earth / site context',(.4,.31,.19));pc=material('Polycarbonate reservation',(.62,.83,.81),.55);glass=material('Garden humidity screen',(.58,.76,.78),.7);furniture=material('Furniture context',(.64,.42,.23));leaf=material('Garden vegetation context',(.18,.36,.13));finish=material('Opaque roof finish',(.65,.7,.65))
+concrete=material('Concrete',(.54,.56,.52));wood=material('US timber',(.52,.32,.14));plaster=material('Mineral finish',(.85,.8,.67));foam=material('Insulation',(.58,.73,.67));membrane=material('Waterproofing',(.07,.12,.12));aggregate=material('Aggregate',(.35,.38,.35));earth=material('Earth / site context',(.4,.31,.19));pc=material('Clear polycarbonate reservation',(.98,.99,1.0),1.0);glass=material('Garden humidity screen',(.58,.76,.78),.7);furniture=material('Furniture context',(.64,.42,.23));leaf=material('Garden vegetation context',(.18,.36,.13));finish=material('Opaque roof finish',(.65,.7,.65))
+pc.node_tree.nodes.get('Principled BSDF').inputs['Roughness'].default_value=.025
+# Clear visual study; optical/product performance remains a supplier specification.
 def mesh(name,verts,ma,stage,part,quantity=None,unit='cf',status='measured',host='',thickness_in=None):
     if stage not in collections:
         c=bpy.data.collections.new(f'{stage:02d} {STAGES[stage]}');s.collection.children.link(c);collections[stage]=c
@@ -76,10 +78,9 @@ for i,x in enumerate(stations):
 for i,(a,c) in enumerate(zip(stations,stations[1:])):
     r=(a+20,glazed[1],c-20,glazed[3]);wedge('PC panel reservation '+str(i),r,lambda y:glaze_base+curb/COS+P*y,lambda y:glaze_base+(curb+16)/COS+P*y,pc,10,'Polycarbonate 5/8 in nominal reservation',quantity=area([r])/(92903.04*COS),unit='sf',status='reservation')
 joint=(W//2-100,glazed[1],W//2+100,glazed[3]);wedge('Opaque/PC raised flashing reservation',joint,lambda y:roof_base+P*y,lambda y:roof_base+25+P*y,finish,10,'Hybrid roof joint flashing reservation',quantity=(glazed[3]-glazed[1])/(304.8*COS),unit='lf',status='reservation')
-for i in range(math.ceil((glazed[2]-glazed[0])/(18*IN))):
-    x=glazed[0]+i*18*IN;r=(x,glazed[1],min(x+p['exterior_depth_mm'],glazed[2]),glazed[3]);wedge('Exterior shade slat '+str(i),r,lambda y:roof_base+305+P*y,lambda y:roof_base+305+p['stud_mm']+P*y,wood,11,'Exterior shading reservation',quantity=(glazed[3]-glazed[1])/(304.8*COS),unit='lf',status='reservation')
+# No fixed shade above the clear half; retractable solar control is an unmodeled allowance.
 for i,x in enumerate([W//2+mm(5),W//2+mm(17),W//2+mm(29),W//2+mm(41)]):
-    r=(x,D-mm(4),x+mm(4),D-mm(2));wedge('Vent reservation '+str(i),r,lambda y:roof_base+20+P*y,lambda y:roof_base+220+P*y,finish,11,'High-level roof vent reservation',quantity=1,unit='each',status='reservation')
+    r=(x,D-mm(4),x+mm(4),D-mm(2));wedge('Vent reservation '+str(i),r,lambda y:roof_base+20+P*y,lambda y:roof_base+220+P*y,pc,11,'High-level roof vent reservation',quantity=1,unit='each',status='reservation')
 # Interior dry partitions: exact US 2x4 profile, resolved union, holes propagated to skins.
 part_region=sub(rect_union([wallband(e) for e in internal],clip=fp),all_ext)
 def coreband(e,lo=None,hi=None):

@@ -7,6 +7,14 @@ from owner_plan import RUN,read_owner,validate
 s=bpy.data.scenes['01 Owner construction sequence'];m=read_owner(ROOT/s['source_svg']);validate(m)
 assert len(bpy.data.scenes)==4 and s['source_sha256']==m['source_sha256']
 objects=[o for o in s.objects if 'component_id' in o];assert len({o['component_id'] for o in objects})==len(objects)
+# Verify the user's clear roof revision in the saved native file.
+assert not any(o['part']=='Exterior shading reservation' for o in objects)
+panels=[o for o in objects if o['part']=='Polycarbonate 5/8 in nominal reservation']
+assert len(panels)==13
+for panel in panels:
+    shader=panel.data.materials[0].node_tree.nodes.get('Principled BSDF')
+    assert shader.inputs['Transmission Weight'].default_value==1
+    assert shader.inputs['Roughness'].default_value<.03
 rows=[];groups=collections.defaultdict(lambda:dict(net_quantity=0,component_count=0,statuses=set()))
 for o in objects:
     assert all(abs(v-1)<1e-8 for v in o.scale) and all(math.isfinite(x) for v in o.data.vertices for x in v.co)

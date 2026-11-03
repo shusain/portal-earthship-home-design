@@ -249,7 +249,7 @@
       "requirement": "Exterior shading and roof vents",
       "PDF_pages": "1,4",
       "status": "Reservation / sizing required",
-      "implementation": "External shade and four high-level vent reservations; no thermal-performance or functional-vent-opening claim"
+      "implementation": "Clear roof without fixed slats; retractable solar-control allowance and four clear high-level vent reservations; no thermal-performance or functional-vent-opening claim"
     },
     {
       "id": "R08",
@@ -456,6 +456,12 @@
     }
   ],
   "decisions": [
+    {
+      "id": "D08",
+      "decision": "Clear garden-side roof half",
+      "status": "CONFIRMED BY USER",
+      "value": "Entire garden-side roof half clear including middle-zone extension; fixed shade slats removed. Retractable shading unmodeled/open; structural framing remains."
+    },
     {
       "id": "D01",
       "decision": "Three-zone layout replaces ranch",

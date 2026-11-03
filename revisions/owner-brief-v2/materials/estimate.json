@@ -2,7 +2,7 @@
   "revision": "Owner PDF V2",
   "date": "2026-11-02",
   "source_sha256": "b5519071a7053d95db31d5f1c5cae5400aa35066c2341b3b83d1094b0488bdb1",
-  "native_sha256": "82d2c714c1c70a0563b9cee9994b6936399611812002776c340cc549a9a65d96",
+  "native_sha256": "6808f3f64ff7da22f292f1d820e758c984b032ccf1e7074da71c8b3464b4f087",
   "brief_sha256": "f2987055dd351fad8ba9ab73ac2e5c406732d974d67c367d332e75b65f0b001e",
   "material_low_usd": 210019.9,
   "material_high_usd": 374958.0,
@@ -352,8 +352,8 @@
       "basis": "Engineer/manufacturer-specific hybrid roof assembly, no assumed multiwall sheet butt/end lap. Main transition about 27 ft; all panel joints also included."
     },
     {
-      "item": "Exterior shading system",
-      "net_quantity": 949.76,
+      "item": "Retractable solar-control allowance (unmodeled)",
+      "net_quantity": null,
       "purchase_quantity": 1,
       "unit": "lot",
       "waste_percent": null,
@@ -363,7 +363,7 @@
       "high_usd": 8500,
       "status": "Authored allowance",
       "source_url": "https://www.greenhousemegastore.com/products/16mm-polycarbonate-clear",
-      "basis": "35 modeled 2x6-section slat reservations; final shading, mounting, durability and wind design unresolved."
+      "basis": "Budget-only retractable shading allowance, fully open in review. No fixed shade slats or measured shade lumber. Thermal, mounting and wind design unresolved."
     },
     {
       "item": "High-level roof vent assemblies / controls",
